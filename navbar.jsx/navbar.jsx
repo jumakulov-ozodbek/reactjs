@@ -1,1 +1,1 @@
-const workingDays=["monday","tuesday","wednesday","thursday","friday"];
+const workingDays=["monday","tuesday","wednesday","thursday","friday"]; 
