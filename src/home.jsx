@@ -1,11 +1,23 @@
-import React from "react";
 
-function Home() {
+import Home from './home';
+
+function App() {
   return (
     <div>
-      <h1>Salom, React!</h1>
-      <p>Bu `home.jsx` komponenti ichidagi matn.</p>
+      <Home />
     </div>
   );
 }
-export default Home;
+
+export default App;
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App"; // App.js komponentini import qilish
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
